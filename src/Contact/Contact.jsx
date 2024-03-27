@@ -18,10 +18,10 @@ export default function Contact() {
 
         <div style={{ display:"flex", justifyContent:'center',padding:"10px"}}>
         <div className='name' style={{height:'400px', width:'400px', border:'2px solid gray',borderRadius:'20px',display:'flex',justifyContent:'space-around',flexDirection:'column',position:'relative'}}>
-<div style={{position:'relative',left:'55px',padding:'20px' ,display:'inline',fontWeight:'bold'}}><CgMail  style={{display:'inline'}}/>  :  <a href={`mailto:${emailAddress}`}>rakshithkn2001@gmail.com</a> </div>
-<div style={{display:'inline',position:'relative',left:'55px',padding:'20px',fontWeight:'bold'}}>  <FaLinkedin style={{display:'inline'}} />   :<a href="https://www.linkedin.com/in/rakshithkn27/" style={{display:'inline' ,color:'indigo', }}>Click Here For Linkedin </a> </div>
-<div style={{display:'inline',position:'relative',left:'55px',padding:'20px',fontWeight:'bold'}}>  <FaGithub style={{display:'inline'}}/> :<a href="https://github.com/rakshithkn1" style={{display:'inline' ,color:'indigo', }}>Click Here For Github </a> </div>
-<div style={{display:'inline',position:'relative',left:'55px',padding:'20px',fontWeight:'bold'}}> <FaPhoneVolume style={{display:'inline'}}/> :<a href="9353763916" style={{display:'inline' ,color:'indigo', }}>+91-9353763916</a> </div>
+<div style={{position:'relative',left:'55px',padding:'20px' ,display:'inline',fontWeight:'bold'}}><CgMail  style={{display:'inline'}}/>  :  <a className='dark:md:hover:text-fuchsia-600'   href={`mailto:${emailAddress}` }>rakshithkn2001@gmail.com</a> </div>
+<div style={{display:'inline',position:'relative',left:'55px',padding:'20px',fontWeight:'bold'}}>  <FaLinkedin style={{display:'inline'}} />   :<a className='dark:md:hover:text-fuchsia-600'   href="https://www.linkedin.com/in/rakshithkn27/" style={{display:'inline' ,color:'indigo', }}>Click Here For Linkedin </a> </div>
+<div style={{display:'inline',position:'relative',left:'55px',padding:'20px',fontWeight:'bold'}}>  <FaGithub style={{display:'inline'}}/> :<a className='dark:md:hover:text-fuchsia-600'   href="https://github.com/rakshithkn1" style={{display:'inline' ,color:'indigo', }}>Click Here For Github </a> </div>
+<div style={{display:'inline',position:'relative',left:'55px',padding:'20px',fontWeight:'bold'}}> <FaPhoneVolume style={{display:'inline'}}/> :<a className='dark:md:hover:text-fuchsia-600'   href="9353763916" style={{display:'inline' ,color:'indigo', }}>+91-9353763916</a> </div>
 
 </div>
 
