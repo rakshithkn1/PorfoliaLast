@@ -3,23 +3,34 @@ import { FaCaretRight } from "react-icons/fa";
 
 function Projetcs() {
   return (
-    <div style={{position:'relative',top:'40px'}}>
-        <div style={{height:'500px',width:'500px',borderRadius:'10px',border:'2px solid blue' ,position:'relative',left:'550px',padding:'20px',marginRight:'50px',backgroundColor:'aliceblue'}}>
-                       <div style={{position:'relative',right:'80px'}}>
-                       <h1 className='skills' style={{fontSize:'30px',textAlign:'center',color:'#2DB3E0',textDecorationColor:'blue',position:'relative',left:'80px'}} >Projects</h1>
-                       <ul style={{color:'#1F9B8C ',display:'flex',flexDirection:'column'}}>
-                                <a href="https://reacordkeepingapplication.netlify.app/" style={{textAlign:'center',paddingBottom:'20px'}}><FaCaretRight style={{position:'relative' ,left:'180px',top:'20px',padding:''}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Record Keeping Application  </a>
-                                <a href="https://randompasswoedgenarator.netlify.app/" style={{textAlign:'center',paddingBottom:'10px'}}><FaCaretRight style={{position:'relative' ,left:'180px',top:'20px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Random Password Generator Using <br></br>&nbsp;&nbsp;&nbsp; </a>
-                                <a href="https://backgroundchangerapplicationusingreac.netlify.app/" style={{textAlign:'center',paddingBottom:'10px'}}><FaCaretRight style={{position:'relative' ,left:'180px',top:'20px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BackGround Color Changer Using <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
-                                <a href="https://animated-website-of-saving-forest.netlify.app/" style={{textAlign:'center',paddingBottom:'10px'}}><FaCaretRight style={{position:'relative' ,left:'180px',top:'20px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animated website for Forest Saving Awareness <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
-                                <a href="https://docaminipp.netlify.app/" style={{textAlign:'center',paddingBottom:'10px'}}><FaCaretRight style={{position:'relative' ,left:'180px',top:'20px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animated Mini Docs App <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+    
+    <div className="flex justify-center items-center gap-3 mt-5 ">
+      <div className="h-[60vh] w-[40vw] border uppercase text-2xl text-center flex flex-col gap-5 text-green-500 bg-gray-200">Projects
+      <div className="text-blue-700 mt-8">  
+                       
+                            <div className="h-3 w-3  bg-#84cc16 inline-block rounded-full mr-2"></div> <div className="mb-8 inline-block">   Random Password Generator   </div>
+                               <div className="gap-5 pl-[-4vw] mb-8" > BackGround Color Changer  </div>
+                            <div className="gap-5 pl-[5vw] mb-8" >   Animated website for Forest Saving Awareness</div> 
+              
+                              <div className="gap-5 mb-5" > Animated Mini Docs App </div> 
                                
-                       </ul>
-
-                    </div>
-                    </div>
-
+                      </div>
+      </div>
+      <div className="h-[60vh] w-[40vw] border uppercase text-2xl text-center flex flex-col gap-5 text-green-500 bg-gray-200">Deployed Links
+      <div className="text-gray-500 mt-8">  
+                       
+                             <div className="mb-8">   <a href="https://reacordkeepingapplication.netlify.app/" >Random Password Generator   </a></div>
+                               <div className="gap-5 pl-[-4vw] mb-8" > <a href="https://backgroundchangerapplicationusingreac.netlify.app/" >BackGround Color Changer  </a></div>
+                            <div className="gap-5 pl-[5vw] mb-8" >   <a href="https://animated-website-of-saving-forest.netlify.app/" >Animated website for Forest Saving Awareness</a></div> 
+              
+                              <div className="gap-5 mb-5" > <a href="https://docaminipp.netlify.app/" >Animated Mini Docs App </a></div> 
+                               
+                      </div>
+      </div>
+      {/* <div className="h-[60vh] w-[40vw] border bg-gray-200"></div> */}
+     
     </div>
+    
   )
 }
 
